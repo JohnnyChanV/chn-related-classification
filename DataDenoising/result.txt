@@ -1,0 +1,152 @@
+id
+------------------STAGE 3------------------------------
+[INFO]: SIZE OF TRAIN SET: 50518.
+[INFO]: SIZE OF TEST SET: 14834.
+[INFO]: Model:MultinomialNB()
+              precision    recall  f1-score   support
+
+       False     0.8547    0.5097    0.6386      7592
+        True     0.6389    0.9091    0.7504      7242
+
+    accuracy                         0.7047     14834
+   macro avg     0.7468    0.7094    0.6945     14834
+weighted avg     0.7493    0.7047    0.6932     14834
+
+[Result]: Cross Validation Mean F1:0.80388563649483
+[INFO]: Model:RandomForestClassifier()
+              precision    recall  f1-score   support
+
+       False     0.9157    0.7497    0.8244      7592
+        True     0.7795    0.9276    0.8472      7242
+
+    accuracy                         0.8366     14834
+   macro avg     0.8476    0.8387    0.8358     14834
+weighted avg     0.8492    0.8366    0.8355     14834
+
+[Result]: Cross Validation Mean F1:0.8350976384650478
+[INFO]: Model:GradientBoostingClassifier()
+              precision    recall  f1-score   support
+
+       False     0.9183    0.8426    0.8788      7592
+        True     0.8481    0.9214    0.8833      7242
+
+    accuracy                         0.8811     14834
+   macro avg     0.8832    0.8820    0.8810     14834
+weighted avg     0.8840    0.8811    0.8810     14834
+
+[Result]: Cross Validation Mean F1:0.8686015180127701
+
+ms
+------------------STAGE 3------------------------------
+[INFO]: SIZE OF TRAIN SET: 48627.
+[INFO]: SIZE OF TEST SET: 14918.
+[INFO]: Model:MultinomialNB()
+              precision    recall  f1-score   support
+
+       False     0.8334    0.5151    0.6367      7691
+        True     0.6331    0.8904    0.7400      7227
+
+    accuracy                         0.6969     14918
+   macro avg     0.7333    0.7028    0.6884     14918
+weighted avg     0.7364    0.6969    0.6868     14918
+
+[Result]: Cross Validation Mean F1:0.7779240680904012
+[INFO]: Model:RandomForestClassifier()
+              precision    recall  f1-score   support
+
+       False     0.8933    0.7099    0.7911      7691
+        True     0.7467    0.9098    0.8202      7227
+
+    accuracy                         0.8067     14918
+   macro avg     0.8200    0.8099    0.8057     14918
+weighted avg     0.8223    0.8067    0.8052     14918
+
+[Result]: Cross Validation Mean F1:0.7907300370588141
+[INFO]: Model:GradientBoostingClassifier()
+              precision    recall  f1-score   support
+
+       False     0.8882    0.8100    0.8473      7691
+        True     0.8152    0.8915    0.8516      7227
+
+    accuracy                         0.8495     14918
+   macro avg     0.8517    0.8508    0.8495     14918
+weighted avg     0.8528    0.8495    0.8494     14918
+
+[Result]: Cross Validation Mean F1:0.8347679913259718
+
+tl
+------------------STAGE 3------------------------------
+[INFO]: SIZE OF TRAIN SET: 49764.
+[INFO]: SIZE OF TEST SET: 14905.
+[INFO]: Model:MultinomialNB()
+              precision    recall  f1-score   support
+
+       False     0.8274    0.5569    0.6657      7680
+        True     0.6505    0.8765    0.7468      7225
+
+    accuracy                         0.7118     14905
+   macro avg     0.7390    0.7167    0.7063     14905
+weighted avg     0.7417    0.7118    0.7050     14905
+
+[Result]: Cross Validation Mean F1:0.7894012396526812
+[INFO]: Model:RandomForestClassifier()
+              precision    recall  f1-score   support
+
+       False     0.9174    0.7461    0.8229      7680
+        True     0.7748    0.9286    0.8447      7225
+
+    accuracy                         0.8346     14905
+   macro avg     0.8461    0.8373    0.8338     14905
+weighted avg     0.8483    0.8346    0.8335     14905
+
+[Result]: Cross Validation Mean F1:0.8182506223020448
+[INFO]: Model:GradientBoostingClassifier()
+              precision    recall  f1-score   support
+
+       False     0.9122    0.8128    0.8596      7680
+        True     0.8216    0.9168    0.8666      7225
+
+    accuracy                         0.8632     14905
+   macro avg     0.8669    0.8648    0.8631     14905
+weighted avg     0.8683    0.8632    0.8630     14905
+
+[Result]: Cross Validation Mean F1:0.8506517854329557
+
+
+vi
+------------------STAGE 3------------------------------
+[INFO]: SIZE OF TRAIN SET: 42015.
+[INFO]: SIZE OF TEST SET: 14997.
+[INFO]: Model:MultinomialNB()
+              precision    recall  f1-score   support
+
+       False     0.8384    0.3783    0.5214      7718
+        True     0.5833    0.9227    0.7147      7279
+
+    accuracy                         0.6425     14997
+   macro avg     0.7108    0.6505    0.6181     14997
+weighted avg     0.7146    0.6425    0.6152     14997
+
+[Result]: Cross Validation Mean F1:0.7337617967533913
+[INFO]: Model:RandomForestClassifier()
+              precision    recall  f1-score   support
+
+       False     0.8654    0.6414    0.7367      7718
+        True     0.7016    0.8942    0.7863      7279
+
+    accuracy                         0.7641     14997
+   macro avg     0.7835    0.7678    0.7615     14997
+weighted avg     0.7859    0.7641    0.7608     14997
+
+[Result]: Cross Validation Mean F1:0.7530315766066266
+[INFO]: Model:GradientBoostingClassifier()
+              precision    recall  f1-score   support
+
+       False     0.8459    0.7836    0.8136      7718
+        True     0.7872    0.8486    0.8167      7279
+
+    accuracy                         0.8152     14997
+   macro avg     0.8165    0.8161    0.8151     14997
+weighted avg     0.8174    0.8152    0.8151     14997
+
+[Result]: Cross Validation Mean F1:0.8114411385368022
